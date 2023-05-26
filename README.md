@@ -30,10 +30,10 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 **Some of Multisensor-based datasets for vehicle detection**
 | Datasets | Scene | Classes | Annotations | 3D boxes | Sensors | Place | Website |
 |----------|-------|---------|---------|-------|---------|---------|---------|
-| KITTI    |   22  |    8    | 15k | 200k |   CL   | Germany | ------|
-|nuScene   |1k     | 23      | 40k | 1.4M | CL    |Boston & Singapore| --- |
-|Waymo Open| 1k    | 4       | 200k | 12M | CL | Different cities| ----|
-| Apollo scape| - | 35 | 130k| 70k | CL | 10 cities in China | -|
+| KITTI    |   22  |    8    | 15k | 200k |   CL   | Germany | [KITTI](https://www.cvlibs.net/datasets/kitti/), [pdf](https://www.cvlibs.net/publications/Geiger2013IJRR.pdf)|
+|nuScene   |1k     | 23      | 40k | 1.4M | CL    |Boston & Singapore| [nuScene](https://www.nuscenes.org/), [pdf](https://arxiv.org/abs/1903.11027) |
+|Waymo Open| 1k    | 4       | 200k | 12M | CL | Different cities| [WOD](https://waymo.com/open/), [pdf](https://arxiv.org/pdf/1912.04838.pdf)|
+| Apollo scape| - | 35 | 130k| 70k | CL | 10 cities in China | [Apollo](https://apolloscape.auto/), [pdf](https://arxiv.org/pdf/1803.06184.pdf)|
 | City Scape| - | 30| 30k| CL| 50 cities| - |
 |Oxford Robot Car| -| - | - | CLR| Oxford UK | - |
 |H3D|160|8|27K|1.07M|L|San Francisco Bay| -|
