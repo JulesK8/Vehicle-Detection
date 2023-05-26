@@ -39,11 +39,11 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 |H3D|160|8|27K|1.07M|L|San Francisco Bay|[h3d](https://usa.honda-ri.com/h3d), [pdf](https://arxiv.org/abs/1903.01568) |
 |Lyft level 5| -|-|-|-|CL| Palo Alto, California|[LL5](https://woven-planet.github.io/l5kit/dataset.html), [pdf](https://arxiv.org/pdf/2006.14480.pdf)| 
 |Panda sets| 8|28|80k|-|CL|-|[Panda](https://scale.com/open-av-datasets/pandaset), [pdf](https://arxiv.org/abs/2112.12610)|
-|ONCE|1M|5|15k|-|CL|china||-|
-|AIODrive|-|-|-|10M|CLR|-|-|
-|Ford Multi-AV| -|-|-|-|CL|Michigan USA|
-|DDAD|-|-|-|-|CL|USA & Japan|-|
-|CADC|75|10|7k|-|CL|Waterloo Canada| -|
+|ONCE|1M|5|15k|-|CL|china|[once](https://once-for-auto-driving.github.io/), [pdf](https://arxiv.org/abs/2106.11037)|
+|AIODrive|-|-|-|10M|CLR|-|[AIO](http://www.aiodrive.org/download.html), [pdf](https://www.xinshuoweng.com/papers/AIODrive/arXiv.pdf)|
+|Ford Multi-AV| -|-|-|-|CL|Michigan USA|[Ford](https://avdata.ford.com/), [pdf](https://arxiv.org/abs/2003.07969)|
+|DDAD|-|-|-|-|CL|USA & Japan|[ddad](https://github.com/TRI-ML/DDAD), [pdf](https://arxiv.org/pdf/2103.16690.pdf)|
+|CADC|75|10|7k|-|CL|Waterloo Canada| [cadc](http://cadcd.uwaterloo.ca/), [pdf](https://arxiv.org/abs/2001.10117)|
 |A2D2|-|-|12k|-|CL|Germany|-|
 |Ax3D|-|7|230k|-|CL|Singapore|-|
 |Argoverse|1K|-|-|-|CL|Pittdburg & Miami USA|-|
