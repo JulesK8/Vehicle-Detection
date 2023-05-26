@@ -56,6 +56,7 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 > Note that these datasets are not only used to detect vehicles, but also are used to detect other objects
 > such as Pedestrians and Cyclists.
 
+
 **4D radar datasets for vehicle detection**
 |Dataset|Radar Type|Data type| Annotation| Reference|
 |-|-|-|-|-|
@@ -64,5 +65,10 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 |K-Radar|Macnica RETINA|RAD|3D bbox, Track ID|-|
 |RADIal|Valeo Middel Range DDM|ADC,RAD,PC|Point-level Vehicle; Open Space Mask|-|
 |View-of-Delft|ZF FRGen21 Short Range|PC|3D bbox|-|
+
+> **Hints: ** 
+> Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features  
+> for its long range detection, K-Radar provides RAD tensor and 3D annotations. TJ4D and K-radar are not yet public available.
+
 
 
