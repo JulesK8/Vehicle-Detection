@@ -66,7 +66,7 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 |RADIal|Valeo Middel Range DDM|ADC,RAD,PC|Point-level Vehicle; Open Space Mask|-|
 |View-of-Delft|ZF FRGen21 Short Range|PC|3D bbox|-|
 
-> **Hints: ** 
+> **Hints:**     
 > Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features  
 > for its long range detection, K-Radar provides RAD tensor and 3D annotations. TJ4D and K-radar are not yet public available.
 
