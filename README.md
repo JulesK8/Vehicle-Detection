@@ -53,3 +53,16 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 
 > **Note:**  
 > C, L, and R stands for Camera, LiDAR and Radar respectively.
+> Note that these datasets are not only used to detect vehicles, but also are used to detect other objects
+> such as Pedestrians and Cyclists.
+
+**4D radar datasets for vehicle detection**
+|Dataset|Radar Type|Data type| Annotation| Reference|
+|-|-|-|-|-|
+|Astyx Hires2019|Astyx 6455 HiRes Middel Range|PC|3D bbox|-|
+|TJ4DRadSet|Oculii Eagle Long Range|	PC|3D bbox, TrackID|-|
+|K-Radar|Macnica RETINA|RAD|3D bbox, Track ID|-|
+|RADIal|Valeo Middel Range DDM|ADC,RAD,PC|Point-level Vehicle; Open Space Mask|-|
+|View-of-Delft|ZF FRGen21 Short Range|PC|3D bbox|-|
+
+
