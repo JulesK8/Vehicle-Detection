@@ -43,3 +43,10 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 |AIODrive|-|-|-|10M|CLR|-|-|
 |Ford Multi-AV| -|-|-|-|CL|Michigan USA|
 |DDAD|-|-|-|-|CL|USA&Japan|-|
+|CADC|75|10|7k|-|CL|Waterloo Canada| -|
+|A2D2|-|-|12k|-|CL|Germany|-|
+|Ax3D|-|7|230k|-|CL|Singapore|-|
+|Argoverse|1K|-|-|-|CL|Pittdburg & Miami USA|-|
+|BLVD|654|3|249k|-|CL|Changshu China|-|
+|Itacha 365|40|6|-|-|CL|Itacha, New York|-|
+|Rope3D|26|12|-|1.5M|CL|-|-|
