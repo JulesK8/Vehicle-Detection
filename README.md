@@ -21,13 +21,13 @@ have been developed.
 # Datasets  
 A more detailed table about datasets used in vehicle detection can be found on page 4 and 5 of my  
 review paper.  
+ 
+The table below summarize some of the most known datasets for vehicle detection include KITTI datasets, nuScene,  
+Waymo open datasets, ApolloScape, CityScape, Oxford radar robot car, H3D, Lyft level 5, Pandasets, ONCE (one million scenes),   
+AIO Drive, Ford multi-AV seasonal dataset, DDAD, CADC (canadian adverse driving conditions), A2D2, A*3D dataset, Argoverse,    
+BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rope3D, Itacha365.  
 
-**Comments**  
-Some of the most known datasets for vehicle detection include KITTI datasets, nuScene,  Waymo open datasets,  
-ApolloScape, CityScape, Oxford radar robot car, H3D, Lyft level 5, Pandasets, ONCE (one million scenes), AIO Drive,  
-Ford multi-AV seasonal dataset, DDAD, CADC (canadian adverse driving conditions), A2D2, A*3D dataset, Argoverse,  
-BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rope3D, Itacha365.
-
+**Some of Multisensor-based datasets for vehicle detection**
 | Datasets | Scene | Classes | Annotations | 3D boxes | Sensors | Place | Website |
 |----------|-------|---------|---------|-------|---------|---------|---------|
 | KITTI    |   22  |    8    | 15k | 200k |   CL   | Germany | ------|
@@ -42,7 +42,7 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 |ONCE|1M|5|15k|-|CL|china||-|
 |AIODrive|-|-|-|10M|CLR|-|-|
 |Ford Multi-AV| -|-|-|-|CL|Michigan USA|
-|DDAD|-|-|-|-|CL|USA&Japan|-|
+|DDAD|-|-|-|-|CL|USA & Japan|-|
 |CADC|75|10|7k|-|CL|Waterloo Canada| -|
 |A2D2|-|-|12k|-|CL|Germany|-|
 |Ax3D|-|7|230k|-|CL|Singapore|-|
@@ -50,3 +50,6 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 |BLVD|654|3|249k|-|CL|Changshu China|-|
 |Itacha 365|40|6|-|-|CL|Itacha, New York|-|
 |Rope3D|26|12|-|1.5M|CL|-|-|
+
+> **Note:**  
+> C, L, and R stands for Camera, LiDAR and Radar respectively.
