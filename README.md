@@ -24,7 +24,7 @@ review paper.
  
 The table below summarize some of the most known datasets for vehicle detection include KITTI datasets, nuScene,  
 Waymo open datasets, ApolloScape, CityScape, Oxford radar robot car, H3D, Lyft level 5, Pandasets, ONCE (one million scenes),   
-AIO Drive, Ford multi-AV seasonal dataset, DDAD, CADC (canadian adverse driving conditions), A2D2, A*3D dataset, Argoverse,    
+AIO Drive, Ford multi-AV seasonal dataset, DDAD, CADC (canadian adverse driving conditions), A2D2, A*3D dataset, Argoverse,  
 BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rope3D, Itacha365.  
 
 **Some of Multisensor-based datasets for vehicle detection**
