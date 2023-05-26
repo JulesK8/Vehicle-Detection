@@ -32,3 +32,14 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 |----------|-------|---------|---------|-------|---------|---------|---------|
 | KITTI    |   22  |    8    | 15k | 200k |   CL   | Germany | ------|
 |nuScene   |1k     | 23      | 40k | 1.4M | CL    |Boston & Singapore| --- |
+|Waymo Open| 1k    | 4       | 200k | 12M | CL | Different cities| ----|
+| Apollo scape| - | 35 | 130k| 70k | CL | 10 cities in China | -|
+| City Scape| - | 30| 30k| CL| 50 cities| - |
+|Oxford Robot Car| -| - | - | CLR| Oxford UK | - |
+|H3D|160|8|27K|1.07M|L|San Francisco Bay| -|
+|Lyft level 5| -|-|-|-|CL| Palo Alto, California|-| 
+|Panda sets| 8|28|80k|-|CL|-|-|
+|ONCE|1M|5|15k|-|CL|china||-|
+|AIODrive|-|-|-|10M|CLR|-|-|
+|Ford Multi-AV| -|-|-|-|CL|Michigan USA|
+|DDAD|-|-|-|-|CL|USA&Japan|-|
