@@ -122,7 +122,14 @@ machine-learning-based, and deep-learning-based methods.
 * [Moving vehicle detection and tracking in unstructured environments](https://ieeexplore.ieee.org/abstract/document/6224636/)  
 * [Go with the flow: Improving Multi-View vehicle detection with motion cues](https://ieeexplore.ieee.org/abstract/document/6977422/)  
 
+**2. Machine learning-based methods**  
 
+**a. HOG:**   
+* [Histograms of oriented gradients](https://courses.cs.duke.edu/fall17/compsci527/notes/hog.pdf)  
+* [Real-time vehicle detection using histograms of oriented gradients and AdaBoost classification](https://www.sciencedirect.com/science/article/pii/S0030402616305423)  
+* [Front and rear vehicle detection using hypothesis generation and verification](https://www.academia.edu/download/37934652/4413sipij03.pdf)  
+* [Image-based on-road vehicle detection using cost-effective histograms of oriented gradients](https://www.sciencedirect.com/science/article/abs/pii/S1047320313001478)  
+* [Vision-based vehicle detection system with consideration of the detecting location](https://ieeexplore.ieee.org/abstract/document/6175131/)  
 
 
 
