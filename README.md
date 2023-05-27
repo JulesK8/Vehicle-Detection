@@ -70,5 +70,12 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 > Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features    
 > for its long range detection, K-Radar provides RAD tensor and 3D annotations. TJ4D and K-radar are not yet public available.
 
+# The recent vehicle detection methods
+## Machine Vision-Based Vehicle Detection
+According to the principles of the existing algorithm, machine vision-based vehicle detection can be categorized as traditional-based,  
+machine-learning-based, and deep-learning-based methods.  
 
-
+**1. Traditional methods**
+**a. Symmetry-based methods:**  
+-[Multipart vehicle detection using symmetry-derived analysis and active learning](https://ieeexplore.ieee.org/abstract/document/7368153/)
+*[Symmetry-based monocular vehicle detection system](https://link.springer.com/article/10.1007/s00138-011-0355-7)  
