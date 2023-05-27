@@ -75,7 +75,9 @@ BLVD (building a large-scale 5D semantics benchmark for autonomous driving), Rop
 According to the principles of the existing algorithm, machine vision-based vehicle detection can be categorized as traditional-based,  
 machine-learning-based, and deep-learning-based methods.  
 
-**1. Traditional methods**
+**1. Traditional methods**  
+
+**- Appearance-based methods**  
 **a. Symmetry-based methods**  
 * [Multipart vehicle detection using symmetry-derived analysis and active learning](https://ieeexplore.ieee.org/abstract/document/7368153/)
 * [Symmetry-based monocular vehicle detection system](https://link.springer.com/article/10.1007/s00138-011-0355-7) 
@@ -98,3 +100,21 @@ machine-learning-based, and deep-learning-based methods.
 * [Vision-based nighttime vehicle detection using CenSurE and SVM](https://ieeexplore.ieee.org/abstract/document/7103307)  
 * [An improved technique for Night-time Vehicle detection](https://ieeexplore.ieee.org/abstract/document/8554712)  
 * [Looking at vehicles in the night: Detection and dynamics of rear lights](https://ieeexplore.ieee.org/abstract/document/7750549)  
+
+**e. Underneath shadow-based methods**
+* [Vehicle detection based on underneath vehicle shadow using edge features](https://ieeexplore.ieee.org/abstract/document/7893608/)  
+* [Shadow-based vehicle detection in urban traffic](https://www.mdpi.com/193936)  
+* [Shadow Based On-Road Vehicle Detection and Verification Using HAAR Wavelet Packet Transform](https://ieeexplore.ieee.org/abstract/document/1598621/)  
+* [Shadow detection in camera-based vehicle detection: survey and analysis](https://www.spiedigitallibrary.org/journals/Journal-of-Electronic-Imaging/volume-25/issue-5/051205/Shadow-detection-in-camera-based-vehicle-detection--survey-and/10.1117/1.JEI.25.5.051205.short?SSO=1)  
+
+**f. Texture-based methods**
+* [Robust vehicle detection in vision systems based on fast wavelet transform and texture analysis](https://ieeexplore.ieee.org/abstract/document/4339088/)  
+* [Real-time small obstacle detection on highways using compressive RBM road reconstruction](https://ieeexplore.ieee.org/abstract/document/7225680/) 
+
+**- Stereo-vision-based methods**  
+* [GOLD: A parallel real-time stereo vision system for generic obstacle and lane detection](https://ieeexplore.ieee.org/abstract/document/650851/)  
+* [Vehicle detection based on multifeature extraction and recognition adopting RBF neural network on ADAS system](https://www.hindawi.com/journals/complexity/2020/8842297/)  
+* 
+
+
+
