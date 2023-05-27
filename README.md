@@ -77,7 +77,7 @@ machine-learning-based, and deep-learning-based methods.
 
 **1. Traditional methods**  
 
-**- Appearance-based methods**  
+**A. Appearance-based methods**  
 **a. Symmetry-based methods**  
 * [Multipart vehicle detection using symmetry-derived analysis and active learning](https://ieeexplore.ieee.org/abstract/document/7368153/)
 * [Symmetry-based monocular vehicle detection system](https://link.springer.com/article/10.1007/s00138-011-0355-7) 
@@ -111,10 +111,17 @@ machine-learning-based, and deep-learning-based methods.
 * [Robust vehicle detection in vision systems based on fast wavelet transform and texture analysis](https://ieeexplore.ieee.org/abstract/document/4339088/)  
 * [Real-time small obstacle detection on highways using compressive RBM road reconstruction](https://ieeexplore.ieee.org/abstract/document/7225680/) 
 
-**- Stereo-vision-based methods**  
+**B. Stereo-vision-based methods**  
 * [GOLD: A parallel real-time stereo vision system for generic obstacle and lane detection](https://ieeexplore.ieee.org/abstract/document/650851/)  
 * [Vehicle detection based on multifeature extraction and recognition adopting RBF neural network on ADAS system](https://www.hindawi.com/journals/complexity/2020/8842297/)  
-* 
+
+**C. Motion-based methods**  
+* [Motion based vehicle detection on motorways](https://ieeexplore.ieee.org/abstract/document/528329/)  
+* [Motion-based vehicle detection in Hsuehshan Tunnel](https://ieeexplore.ieee.org/abstract/document/7449856/) 
+* [Moving vehicle detection and tracking in unstructured environments](https://ieeexplore.ieee.org/abstract/document/6224636/)  
+* [Go with the flow: Improving Multi-View vehicle detection with motion cues](https://ieeexplore.ieee.org/abstract/document/6977422/)  
+
+
 
 
 
