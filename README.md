@@ -101,6 +101,7 @@ machine-learning-based, and deep-learning-based methods.
 * [Vision-based nighttime vehicle detection using CenSurE and SVM](https://ieeexplore.ieee.org/abstract/document/7103307)  
 * [An improved technique for Night-time Vehicle detection](https://ieeexplore.ieee.org/abstract/document/8554712)  
 * [Looking at vehicles in the night: Detection and dynamics of rear lights](https://ieeexplore.ieee.org/abstract/document/7750549)  
+* [Vehicle detection using tail light segmentation](https://ieeexplore.ieee.org/abstract/document/6021126)  
 
 **e. Underneath shadow-based methods**
 * [Vehicle detection based on underneath vehicle shadow using edge features](https://ieeexplore.ieee.org/abstract/document/7893608/)  
@@ -131,5 +132,40 @@ machine-learning-based, and deep-learning-based methods.
 * [Image-based on-road vehicle detection using cost-effective histograms of oriented gradients](https://www.sciencedirect.com/science/article/abs/pii/S1047320313001478)  
 * [Vision-based vehicle detection system with consideration of the detecting location](https://ieeexplore.ieee.org/abstract/document/6175131/)  
 
+**b. Haar-like feature:**  
+* [Rapid object detection using a boosted cascade of simple features](https://ieeexplore.ieee.org/abstract/document/990517/)  
+* [Efficient feature selection and classification for vehicle detection](https://ieeexplore.ieee.org/abstract/document/6898836/)  
+* [A general active-learning framework for on-road vehicle recognition and tracking](https://ieeexplore.ieee.org/abstract/document/5411825)  
+* [A vehicle detection system based on haar and triangle features](https://ieeexplore.ieee.org/abstract/document/5164288/)  
+* [Monocular precrash vehicle detection: features and classifiers](https://ieeexplore.ieee.org/abstract/document/1643708/)  
+* [SURF: Speed Up Robust Features](https://lirias.kuleuven.be/73068?limo=0)  
+* [Integrating appearance and edge features for sedan vehicle detection in the blind-spot area](https://ieeexplore.ieee.org/abstract/document/6145682/)  
+* [Object recognition from local scale-invariant feature](https://ieeexplore.ieee.org/abstract/document/790410/)    
+* [Vehicle detection using an extended hidden random field mode](https://ieeexplore.ieee.org/abstract/document/6083135/)  
 
+**3. Deep-learning-based methods for vehicle detection**  
 
+**_A. Objectdetection-based methods_**  
+**1. Anchor-based detectors**  
+**a. Two-stage detection networks**  
+* [RCNN](http://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html)  
+* [Fast RCNN](http://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html)  
+* [Faster RCNN](https://proceedings.neurips.cc/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html)  
+* [SPP-Net](https://ieeexplore.ieee.org/abstract/document/7005506/)  
+
+> Note:  
+> These are some pioneering networks in context of object detection, i.e, these networks are not only used to detect  
+> vehicles but also detect other objects. Consider taking a look into my review paper for a deep understanding.
+
+**b. One-stage detection networks**  
+* [YOLO v1](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html)   
+* [SSD](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2) 
+* [YOLO v2](http://openaccess.thecvf.com/content_cvpr_2017/html/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.html)    
+* [YOLO v3](https://arxiv.org/abs/1804.02767)    
+* [M2Det](https://ojs.aaai.org/index.php/AAAI/article/view/4962)  
+* [YOLO v4](https://arxiv.org/abs/2004.10934)    
+* [YOLO v7](http://openaccess.thecvf.com/content/CVPR2023/html/Wang_YOLOv7_Trainable_Bag-of-Freebies_Sets_New_State-of-the-Art_for_Real-Time_Object_Detectors_CVPR_2023_paper.html)  
+
+> Note:  
+> These are some pioneering networks in context of object detection, i.e, these networks are not only used to detect  
+> vehicles but also detect other objects. Consider taking a look into my review paper for a deep understanding.
