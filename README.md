@@ -76,6 +76,25 @@ According to the principles of the existing algorithm, machine vision-based vehi
 machine-learning-based, and deep-learning-based methods.  
 
 **1. Traditional methods**
-**a. Symmetry-based methods:**  
--[Multipart vehicle detection using symmetry-derived analysis and active learning](https://ieeexplore.ieee.org/abstract/document/7368153/)
-*[Symmetry-based monocular vehicle detection system](https://link.springer.com/article/10.1007/s00138-011-0355-7)  
+**a. Symmetry-based methods**  
+* [Multipart vehicle detection using symmetry-derived analysis and active learning](https://ieeexplore.ieee.org/abstract/document/7368153/)
+* [Symmetry-based monocular vehicle detection system](https://link.springer.com/article/10.1007/s00138-011-0355-7) 
+* [Video vehicle detection algorithm based on edge symmetry](https://bhxb.buaa.edu.cn/bhzk/en/article/id/9405)  
+
+**b. Edge feature-based methods**
+* [Edge-based forward vehicle detection method for complex scenes](https://ieeexplore.ieee.org/abstract/document/6904044/)  
+* [Multiscale edge fusion for vehicle detection based on difference of Gaussian](https://www.sciencedirect.com/science/article/pii/S0030402616000292)  
+* [Vehicle  detection based on underneath vehicle shadow using edge features](https://ieeexplore.ieee.org/abstract/document/7893608/)  
+* [A feature-based recognition scheme for traffic scenes](https://ieeexplore.ieee.org/abstract/document/528285/)  
+
+**c. Color-based methods**
+* [Color modeling by spherical influence field in sensing driving environment](https://ieeexplore.ieee.org/abstract/document/898350/)  
+* [Daytime preceding vehicle brake light detection using monocular vision](https://ieeexplore.ieee.org/abstract/document/7247631)  
+* [Vehicle detection based on color analysis](https://ieeexplore.ieee.org/abstract/document/6380975/)  
+* [Road detection and vehicles tracking by vision for an on-board acc system in the velac vehicle](https://ieeexplore.ieee.org/abstract/document/859833)
+
+**d. Taillight-based methods**
+* [Rear-lamp vehicle detection and tracking in low-exposure color video for night conditions](https://ieeexplore.ieee.org/abstract/document/5446402/)  
+* [Vision-based nighttime vehicle detection using CenSurE and SVM](https://ieeexplore.ieee.org/abstract/document/7103307)  
+* [An improved technique for Night-time Vehicle detection](https://ieeexplore.ieee.org/abstract/document/8554712)  
+* [Looking at vehicles in the night: Detection and dynamics of rear lights](https://ieeexplore.ieee.org/abstract/document/7750549)  
