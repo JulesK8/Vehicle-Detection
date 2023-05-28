@@ -229,3 +229,23 @@ Semantic segmentation associates a label or a category with every pixel in the i
 * [EspNet](https://arxiv.org/abs/1804.00015)  
 * [CGNet](https://ieeexplore.ieee.org/abstract/document/9292449)  
 
+## **LiDAR-based methods for vehicle detection**  
+
+LiDAR is a sensor that perceives the environment by transmitting laser signals and receiving the reflected signals   
+from the obstacles in the environment.  
+
+Practically, existing LiDAR-based methods can be classified as traditional and deep learning techniques.  
+
+**1. Traditional methods**  
+
+* [A real-time grid map generation and object classification for ground-based 3D LIDAR data using image analysis techniques](https://ieeexplore.ieee.org/abstract/document/5651197/) 
+* [A Graph-Based Method for Joint Instance Segmentation of Point Clouds and Image Sequences](https://ieeexplore.ieee.org/abstract/document/9560765)  
+* [Range image-based density-based spatial clustering of application with noise clustering method of three-dimensional point clouds](https://journals.sagepub.com/doi/pdf/10.1177/1729881418762302)  
+* [Improving LiDAR point cloud classification using intensities and multiple echoes](https://ieeexplore.ieee.org/abstract/document/7354098)  
+* [Drivable road detection with 3D point clouds based on the MRF for intelligent vehicle,](https://link.springer.com/chapter/10.1007/978-3-319-07488-7_4)  
+
+**2. LiDAR deep-learning-based method**  
+Considering the data type where we extract featuremaps, LiDAR deep learning methods can be categorized as  
+raw data-based, projection-based, and voxel-based.
+
+
