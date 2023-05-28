@@ -146,6 +146,7 @@ machine-learning-based, and deep-learning-based methods.
 **3. Deep-learning-based methods for vehicle detection**  
 
 **_A. Objectdetection-based methods_**  
+
 **1. Anchor-based detectors**  
 **a. Two-stage detection networks**  
 * [RCNN](http://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html)  
@@ -168,4 +169,63 @@ machine-learning-based, and deep-learning-based methods.
 
 > Note:  
 > These are some pioneering networks in context of object detection, i.e, these networks are not only used to detect  
-> vehicles but also detect other objects. Consider taking a look into my review paper for a deep understanding.
+> vehicles but also detect other objects. Consider taking a look into my review paper for a deep understanding.  
+
+**2. Anchor-free detectors**  
+The existing studies show that anchor-free models can be classified as key-point- and center-based. Key-point-based  
+methods detect specific object points, such as center and corner points, and group them for bounding box prediction.   
+whereas, center-based methods directly predict the object's center point and perform the object bounding box regression.  
+
+**a. Anchor-free keypoint-based**  
+* [ExtremeNet](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhou_Bottom-Up_Object_Detection_by_Grouping_Extreme_and_Center_Points_CVPR_2019_paper.html)  
+* [CornerNet](http://openaccess.thecvf.com/content_ECCV_2018/html/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.html)  
+* [CenterNet-HG](https://arxiv.org/abs/1904.07850)  
+* [Grid RCNN](http://openaccess.thecvf.com/content_CVPR_2019/html/Lu_Grid_R-CNN_CVPR_2019_paper.html)
+* [CornerNet-Lite](https://arxiv.org/abs/1904.08900)
+* [CenterNet](http://openaccess.thecvf.com/content_ICCV_2019/html/Duan_CenterNet_Keypoint_Triplets_for_Object_Detection_ICCV_2019_paper.html)
+* [RepPoints](http://openaccess.thecvf.com/content_ICCV_2019/html/Yang_RepPoints_Point_Set_Representation_for_Object_Detection_ICCV_2019_paper.html)
+
+**b. Anchor-free center-based**  
+* [FCOS](https://openaccess.thecvf.com/content_ICCV_2019/html/Tian_FCOS_Fully_Convolutional_One-Stage_Object_Detection_ICCV_2019_paper.html)  
+* [Foveabox](https://ieeexplore.ieee.org/abstract/document/9123553/)
+* [FSAF](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhu_Feature_Selective_Anchor-Free_Module_for_Single-Shot_Object_Detection_CVPR_2019_paper.html)
+* [GA-RPN](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Region_Proposal_by_Guided_Anchoring_CVPR_2019_paper.html)
+* [ATSS](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Bridging_the_Gap_Between_Anchor-Based_and_Anchor-Free_Detection_via_Adaptive_CVPR_2020_paper.html)  
+
+**c. Transformer-based detector**
+* [DGT-Det3D](https://www.sciencedirect.com/science/article/abs/pii/S0950705122011819)  
+* [ET-DTH](https://arxiv.org/abs/2303.05078)  
+* [RDSA](https://www.hindawi.com/journals/cin/2023/4228610/)  
+* [VoxSet](https://openaccess.thecvf.com/content/CVPR2022/html/He_Voxel_Set_Transformer_A_Set-to-Set_Approach_to_3D_Object_Detection_CVPR_2022_paper.html)  
+* [VISTA](http://openaccess.thecvf.com/content/CVPR2022/html/Deng_VISTA_Boosting_3D_Object_Detection_via_Dual_Cross-VIew_SpaTial_Attention_CVPR_2022_paper.html)  
+* [CenterFormer](https://link.springer.com/chapter/10.1007/978-3-031-19839-7_29)  
+* [SW Former](https://link.springer.com/chapter/10.1007/978-3-031-20080-9_25)  
+* [STVD](https://www.sciencedirect.com/science/article/pii/S0957417422020103)  
+* [VoTr](http://openaccess.thecvf.com/content/ICCV2021/html/Mao_Voxel_Transformer_for_3D_Object_Detection_ICCV_2021_paper.html)  
+* [MFT-SST](https://ieeexplore.ieee.org/abstract/document/10042064/)  
+
+> Note:  
+> The above models are inspired by the original work presented as [Vit](https://arxiv.org/abs/2010.11929).  
+
+**_B. Semantic segmentation-based detection networks_**  
+Semantic segmentation associates a label or a category with every pixel in the image.  
+
+>Note:  
+>It can be mentioned that most of semantic segmentation methods are applicable in the field of vehicle detection.
+
+* [DeepMask](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.html)  
+* [DeepLab](https://ieeexplore.ieee.org/abstract/document/7913730/)  
+* [DeepLab2](https://arxiv.org/abs/2106.09748)  
+* [DeepLab3](https://arxiv.org/abs/1706.05587)  
+* [PSPNet](http://openaccess.thecvf.com/content_cvpr_2017/html/Zhao_Pyramid_Scene_Parsing_CVPR_2017_paper.html)  
+* [ICNet](http://openaccess.thecvf.com/content_ECCV_2018/html/Hengshuang_Zhao_ICNet_for_Real-Time_ECCV_2018_paper.html)  
+* [RefineNet](http://openaccess.thecvf.com/content_cvpr_2017/html/Lin_RefineNet_Multi-Path_Refinement_CVPR_2017_paper.html)  
+* [Semi Supervised Semantic Segmentation Using GAN](https://openaccess.thecvf.com/content_iccv_2017/html/Souly__Semi_Supervised_ICCV_2017_paper.html)  
+* [SegNet](https://ieeexplore.ieee.org/abstract/document/7803544/)  
+* [BiseNet](http://openaccess.thecvf.com/content_ECCV_2018/html/Changqian_Yu_BiSeNet_Bilateral_Segmentation_ECCV_2018_paper.html)  
+* [DFANet](http://openaccess.thecvf.com/content_CVPR_2019/html/Li_DFANet_Deep_Feature_Aggregation_for_Real-Time_Semantic_Segmentation_CVPR_2019_paper.html)  
+* [Enet](https://arxiv.org/abs/1606.02147)  
+* [LedNet](https://ieeexplore.ieee.org/abstract/document/8803154/)  
+* [EspNet](https://arxiv.org/abs/1804.00015)  
+* [CGNet](https://ieeexplore.ieee.org/abstract/document/9292449)  
+
