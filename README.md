@@ -277,20 +277,20 @@ raw data-based, projection-based, and voxel-based.
 * 2017 DepthCN [paper](https://ieeexplore.ieee.org/document/8317880/).     
 * 2017 MV3D [paper](https://arxiv.org/pdf/1611.07759.pdf), [code](https://github.com/bostondiditeam/MV3D).     
 * 2018 GVCNN [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Feng_GVCNN_Group-View_Convolutional_CVPR_2018_paper.pdf), [code](https://github.com/waxnkw/gvcnn-pytorch).    
-* 2018 PointSeg [paper](), [code]()  
-* 2018 SnapNet [paper](), [code]()  
-* 2018 SqueezeSeg [paper](), [code]()  
-* 2018 RT3D [paper](), [code]()   
-* 2018 BirdNet [paper](), [code]()   
-* 2018 PIXOR [paper](), [code]()   
-* 2018 Complex-YOLO [paper](), [code]()   
-* 2019 SqueezeSeg v2 [paper](), [code]()  
-* 2020 BirdNet+ [paper](), [code]()    
-* 2020 MVL Net [paper](), [code]()   
-* 2020 RAANet [paper](), [code]()   
-* 2022 Pseudo-L [paper](), [code]()   
-* 2020 SRDL [paper](), [code]()   
-* 2023 Ri-fusion [paper](), [code]()  
+* 2018 PointSeg [paper](https://arxiv.org/pdf/1807.06288.pdf), [code](https://github.com/ArashJavan/PointSeg)  
+* 2018 SnapNet [paper](https://boulch.eu/files/2017_cag_snapNet.pdf), [code](https://github.com/aboulch/snapnet)  
+* 2018 SqueezeSeg [paper](https://arxiv.org/pdf/1710.07368.pdf), [code](https://github.com/BichenWuUCB/SqueezeSeg)  
+* 2018 RT3D [paper](https://ieeexplore.ieee.org/iel7/7083369/7339444/08403277.pdf), [code](https://github.com/zyms5244/RT3D)   
+* 2018 BirdNet [paper](https://arxiv.org/pdf/1805.01195.pdf)   
+* 2018 PIXOR [paper](https://arxiv.org/pdf/1902.06326.pdf), [code](https://github.com/matssteinweg/PIXOR)   
+* 2018 Complex-YOLO [paper](https://arxiv.org/pdf/1803.06199.pdf), [code](https://github.com/AI-liu/Complex-YOLO)   
+* 2019 SqueezeSeg v2 [paper](https://arxiv.org/pdf/1809.08495.pdf), [code](https://github.com/xuanyuzhou98/SqueezeSegV2)  
+* 2020 BirdNet+ [paper](https://arxiv.org/pdf/2003.04188.pdf), [code](https://github.com/AlejandroBarrera/birdnet2)    
+* 2020 MVL Net [paper](https://arxiv.org/pdf/2006.05518.pdf).     
+* 2020 RAANet [paper](https://arxiv.org/pdf/2111.09515.pdf), [code](https://github.com/anonymous0522/raan)   
+* 2022 Pseudo-L [paper](https://arxiv.org/pdf/2203.02112.pdf), [code](https://github.com/revisitq/Pseudo-Stereo-3D)   
+* 2020 SRDL [paper](https://arxiv.org/pdf/2006.05187.pdf).   
+* 2023 Ri-fusion [paper](https://ieeexplore.ieee.org/document/9963928).  
 
 **Voxel-based**  
 * 2015 VoxNet [paper](), [code]()  
