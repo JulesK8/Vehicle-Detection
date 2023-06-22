@@ -145,7 +145,7 @@ machine-learning-based, and deep-learning-based methods.
 
 **3. Deep-learning-based methods for vehicle detection**  
 
-**_A. Objectdetection-based methods_**  
+**_A. Object detection-based methods_**  
 
 **1. Anchor-based detectors**  
 **a. Two-stage detection networks**  
@@ -273,10 +273,10 @@ raw data-based, projection-based, and voxel-based.
 * 2022 PointDistiller [paper](https://arxiv.org/pdf/2205.11098.pdf), [code](https://github.com/RunpeiDong/PointDistiller)  
 
 **Projection-based**  
-* 2015 MVCNN [paper](), [code]()   
-* 2017 DepthCN [paper](), [code]()   
-* 2017 MV3D [paper](), [code]()   
-* 2018 GVCNN [paper](), [code]()  
+* 2015 MVCNN [paper](https://arxiv.org/pdf/1505.00880.pdf), [code](https://github.com/suhangpro/mvcnn).    
+* 2017 DepthCN [paper](https://ieeexplore.ieee.org/document/8317880/).     
+* 2017 MV3D [paper](https://arxiv.org/pdf/1611.07759.pdf), [code](https://github.com/bostondiditeam/MV3D).     
+* 2018 GVCNN [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Feng_GVCNN_Group-View_Convolutional_CVPR_2018_paper.pdf), [code](https://github.com/waxnkw/gvcnn-pytorch).    
 * 2018 PointSeg [paper](), [code]()  
 * 2018 SnapNet [paper](), [code]()  
 * 2018 SqueezeSeg [paper](), [code]()  
