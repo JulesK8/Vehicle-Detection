@@ -249,28 +249,28 @@ Considering the data type where we extract featuremaps, LiDAR deep learning meth
 raw data-based, projection-based, and voxel-based.
 
 **Raw data based**
-* 2017 PointNet [paper](), [code]()  
-* 2017 PointNet++ [paper](), [code]()  
-* 2018 IPOD [paper](), [code]()   
-* 2018 RoarNet [paper](), [code]()  
-* 2019 PointRCNN [paper](), [code]()  
-* 2019 STD [paper](), [code]()  
-* 2019 KpConv [paper](), [code]()  
-* 2019 ShellNet [paper](), [code]()      
-* 2020 SalsaNet [paper](), [code]()  
-* 2020 RandLaNet [paper](), [code]()  
-* 2020 Part-A2 [paper](), [code]()  
-* 2020 3DSSD [paper](), [code]()  
-* 2020 SASSD [paper](), [code]()  
-* 2020 CIA-SSD [paper](), [code]()   
-* 2020 Point-GNN [paper](), [code]()  
-* 2021 S3Net [paper](), [code]()  
-* 2021 LSNet [paper](), [code]()  
-* 2021 Pyramid RCNN [paper](), [code]()  
-* 2021 ST3D [paper](), [code]()  
-* 2021 POAT-Net [paper](), [code]()  
-* 2022 SASA [paper](), [code]()  
-* 2022 PointDistiller [paper](), [code]()  
+* 2017 PointNet [paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf), [code](https://github.com/charlesq34/pointnet)  
+* 2017 PointNet++ [paper](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf), [code](https://github.com/charlesq34/pointnet2)  
+* 2018 IPOD [paper](https://arxiv.org/pdf/1812.05276.pdf)   
+* 2018 RoarNet [paper](https://arxiv.org/pdf/1811.03818.pdf), [code](https://github.com/collector-m/RoarNet)  
+* 2019 PointRCNN [paper](https://arxiv.org/pdf/1812.04244.pdf), [code](https://github.com/sshaoshuai/PointRCNN)  
+* 2019 STD [paper](https://arxiv.org/pdf/1907.10471.pdf). 
+* 2019 KpConv [paper](https://arxiv.org/pdf/1904.08889.pdf), [code](https://github.com/HuguesTHOMAS/KPConv)  
+* 2019 ShellNet [paper](https://arxiv.org/pdf/1908.06295.pdf), [code](https://github.com/hkust-vgd/shellnet)      
+* 2020 SalsaNet [paper](https://arxiv.org/pdf/1909.08291.pdf), [code](https://gitlab.com/aksoyeren/salsanet)  
+* 2020 RandLaNet [paper](https://arxiv.org/pdf/1911.11236.pdf), [code](https://github.com/QingyongHu/RandLA-Net)  
+* 2020 Part-A2 [paper](https://arxiv.org/pdf/1907.03670.pdf), [code](https://github.com/open-mmlab/OpenPCDet)  
+* 2020 3DSSD [paper](https://arxiv.org/pdf/2002.10187.pdf), [code](https://github.com/dvlab-research/3DSSD)  
+* 2020 SASSD [paper](https://www4.comp.polyu.edu.hk/~cslzhang/paper/SA-SSD.pdf), [code](https://github.com/skyhehe123/SA-SSD)  
+* 2020 CIA-SSD [paper](https://arxiv.org/pdf/2012.03015.pdf), [code](https://github.com/Vegeta2020/CIA-SSD)   
+* 2020 Point-GNN [paper](https://arxiv.org/pdf/2003.01251.pdf), [code](https://github.com/WeijingShi/Point-GNN)  
+* 2021 S3Net [paper](https://arxiv.org/pdf/2103.08745.pdf).  
+* 2021 LSNet [paper](https://www.mdpi.com/2072-4292/14/7/1539).  
+* 2021 Pyramid RCNN [paper](https://arxiv.org/pdf/2109.02499.pdf), [code](https://github.com/PointsCoder/Pyramid-RCNN)  
+* 2021 ST3D [paper](https://arxiv.org/pdf/2103.05346.pdf), [code](https://github.com/CVMI-Lab/ST3D)  
+* 2021 POAT-Net: Parallel Offset-Attention Assisted Transformer for 3D Object Detection for Autonomous Driving. [paper](https://ieeexplore.ieee.org/iel7/6287639/9312710/09611257.pdf). 
+* 2022 SASA [paper](https://arxiv.org/pdf/2201.01976.pdf), [code](https://github.com/blakechen97/SASA)  
+* 2022 PointDistiller [paper](https://arxiv.org/pdf/2205.11098.pdf), [code](https://github.com/RunpeiDong/PointDistiller)  
 
 **Projection-based**  
 * 2015 MVCNN [paper](), [code]()   
