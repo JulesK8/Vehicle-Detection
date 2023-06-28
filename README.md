@@ -245,7 +245,7 @@ Practically, existing LiDAR-based methods can be classified as traditional and d
 * [Drivable road detection with 3D point clouds based on the MRF for intelligent vehicle,](https://link.springer.com/chapter/10.1007/978-3-319-07488-7_4)  
 
 **2. LiDAR deep-learning-based method**  
-Considering the data type where we extract featuremaps, LiDAR deep learning methods can be categorized as  
+Considering the data type where we extract feature maps, LiDAR deep learning methods can be categorized as  
 raw data-based, projection-based, and voxel-based.
 
 **Raw data based**
@@ -328,5 +328,23 @@ raw data-based, projection-based, and voxel-based.
 * 2020 FusionNet [paper](https://arxiv.org/ftp/arxiv/papers/1612/1612.05360.pdf)     
 * 2021 2-S3Net [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_AF2-S3Net_Attentive_Feature_Fusion_With_Adaptive_Feature_Selection_for_Sparse_CVPR_2021_paper.pdf)     
 * 2021 JS3C-Net [paper](https://arxiv.org/pdf/2012.03762.pdf), [code](https://github.com/yanx27/JS3C-Net)    
+
+** 3. LiDAR deep-learning-based method ** 
+Facilitated by the antenna array processing, the mmWave radar can obtain the angular information of vehicle reflecting points, 
+which, combined with the time of flight (ToF), can localize the points in 3D space. Compared with other sensors such as LiDAR and
+cameras, mmWave radar signals are less affected by severe weather conditions (except heavy rain) and are insensitive to lighting.
+Depending on the signal output, mmWave-based vehicle detection methods can be classified into two categories. These are raw-data-level 
+and map-level radar detection.
+
+** 1. Raw data level radar detection **
+MmWave raw data contain the required information to
+locate the detected vehicles. Nowadays, with the development of radar technology, most radars, after receiving
+the reflected signal can directly determine the detected target information such as range, velocity, angle, and
+reflection intensity of detected vehicles.
+
+** 2. Map-level radar target detection **
+
+Compared to raw data target detection radar, the imaging radar not only provides the target’s velocity and
+motion state but also outputs the radar signals into image maps.
 
 
