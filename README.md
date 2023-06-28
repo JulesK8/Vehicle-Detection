@@ -329,7 +329,7 @@ raw data-based, projection-based, and voxel-based.
 * 2021 2-S3Net [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_AF2-S3Net_Attentive_Feature_Fusion_With_Adaptive_Feature_Selection_for_Sparse_CVPR_2021_paper.pdf)     
 * 2021 JS3C-Net [paper](https://arxiv.org/pdf/2012.03762.pdf), [code](https://github.com/yanx27/JS3C-Net)    
 
-** 3. LiDAR deep-learning-based method ** 
+** 3.RADAR deep-learning-based method ** 
 Facilitated by the antenna array processing, the mmWave radar can obtain the angular information of vehicle reflecting points, 
 which, combined with the time of flight (ToF), can localize the points in 3D space. Compared with other sensors such as LiDAR and
 cameras, mmWave radar signals are less affected by severe weather conditions (except heavy rain) and are insensitive to lighting.
@@ -347,4 +347,11 @@ reflection intensity of detected vehicles.
 Compared to raw data target detection radar, the imaging radar not only provides the target’s velocity and
 motion state but also outputs the radar signals into image maps.
 
+** 2D grid maps **
+2D representation can be classified as range doppler azimuth maps and projections map.
 
+** 3D point cloud maps **
+3D points cloud preserves all the information by sacrificing the cost of higher sparsity. 
+
+* Point cloud features-based kernel svm for human-vehicle classification in millimeter wave radar, [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8979449)
+* 
