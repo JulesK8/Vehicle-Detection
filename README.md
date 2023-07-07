@@ -329,7 +329,7 @@ raw data-based, projection-based, and voxel-based.
 * 2021 2-S3Net [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_AF2-S3Net_Attentive_Feature_Fusion_With_Adaptive_Feature_Selection_for_Sparse_CVPR_2021_paper.pdf)     
 * 2021 JS3C-Net [paper](https://arxiv.org/pdf/2012.03762.pdf), [code](https://github.com/yanx27/JS3C-Net)    
 
-## 3.RADAR deep-learning-based method 
+## 3. RADAR deep-learning-based method 
 Facilitated by the antenna array processing, the mmWave radar can obtain the angular information of vehicle reflecting points, 
 which, combined with the time of flight (ToF), can localize the points in 3D space. Compared with other sensors such as LiDAR and
 cameras, mmWave radar signals are less affected by severe weather conditions (except heavy rain) and are insensitive to lighting.
@@ -361,7 +361,7 @@ motion state but also outputs the radar signals into image maps.
 * Iterative adaptive approaches to MIMO radar imaging [paper](http://www.sal.ufl.edu/papers/MIMOIAA.pdf)
 * Mmwave radar point cloud segmentation using gmm in multimodal traffic monitoring [paper](https://arxiv.org/pdf/1911.06364)
 * RSS-Net: weakly-supervised multi-class semantic segmentation with FMCW radar [paper](https://arxiv.org/pdf/2004.03451)
-* Point cloud features-based kernel SVM for humanvehicle classification in millimeter wave radar [pdf](https://ieeexplore.ieee.org/iel7/6287639/6514899/08979449.pdf)
+* Point cloud features-based kernel SVM for human vehicle classification in millimeter wave radar [pdf](https://ieeexplore.ieee.org/iel7/6287639/6514899/08979449.pdf)
 
 
 ## 4. Multi-sensor fusion-based method for vehicle detection  
@@ -382,3 +382,31 @@ cameras capturing different perspectives of the given scene.
 * Online vehicle detection using Haar-like, LBP and HOG feature based image classifiers with stereo vision preselection [paper](http://bib.drgoehring.de/neumann17iv-vehicledetection/neumann17iv-vehicledetection.pdf)
 * Real-time obstacle detection in complex scenarios using dense stereo vision and optical flow [paper](https://ieeexplore.ieee.org/abstract/document/5625174)
 * 3D pose estimation of vehicles using stereo camera [paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=c5589374a8056b5fef3af8bef7858677fc273ac6)
+
+### Vehicle detection based on the fusion of mmWave radar and vision
+The mmWave radar and the cameras are the classical vehicular sensors commonly used for vehicle detection andtracking. 
+The mmWave radar is known to provide depth information and the motion state of the vehicle. In contrast, the camera image 
+is known to have a high resolution containing rich semantic information. Despite their promising abilities, their drawbacks 
+are insufficient for environmental perception when used separately. Therefore, fusing mmWave radar and the camera compliments 
+each other for better environment perception of the ego vehicle.
+
+**Data level fusion**
+* Pedestrian detection based on fusion of millimeter wave radar and vision [paper](https://dl.acm.org/doi/abs/10.1145/3268866.3268868)
+* On-road vehicle detection and tracking using MMW radar and monovision fusion [paper](https://ieeexplore.ieee.org/abstract/document/7463071/)
+* CramNet: Camera-Radar Fusion with Ray Constrained Cross-Attention for Robust 3D Object Detection [paper](https://arxiv.org/pdf/2210.09267)
+* 
+**Decision level fusion**
+* Standard platform for sensor fusion on advanced driver assistance system using bayesian network [paper](https://ieeexplore.ieee.org/abstract/document/1336390/)
+* Camera radar fusion for increased reliability in ADAS applications [paper](https://library.imaging.org/admin/apis/public/api/ist/website/downloadArticle/ei/30/17/art00011)
+* Frontal object perception using radar and mono-vision [paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a580214d5e97f982305dcc6e00d2441ea3438dbe)
+* Appearance based vehicle detection by radar-stereo vision integration [paper](https://link.springer.com/chapter/10.1007/978-3-319-27146-0_34)
+
+**Feature level**
+* Deep fusionnet for point cloud semantic segmentation [paper](https://ora.ox.ac.uk/objects/uuid:80c17ed9-01ef-486e-bea5-962cc4b56528/download_file?safe_filename=Deep%2520FusionNet.pdf&type_of_work=Conference+item)
+* Distant vehicle detection using radar and vision [paper](https://arxiv.org/pdf/1901.10951)
+* RVNet: Deep sensor fusion of monocular camera and radar for image-based obstacle detection in challenging environments [paper](https://www.researchgate.net/profile/Vijay-John/publication/335833918_RVNet_Deep_Sensor_Fusion_of_Monocular_Camera_and_Radar_for_Image-based_Obstacle_Detection_in_Challenging_Environments/links/5d7f164e92851c87c38b09f1/RVNet-Deep-Sensor-Fusion-of-Monocular-Camera-and-Radar-for-Image-based-Obstacle-Detection-in-Challenging-Environments.pdf)
+* A deep learning-based radar and camera sensor fusion architecture for object detection [paper](https://arxiv.org/pdf/2005.07431)
+* Spatial attention fusion for obstacle detection using mmwave radar and vision sensor [paper](https://www.mdpi.com/1424-8220/20/4/956/pdf)
+* Automotive radar and camera fusion using generative adversarial networks [paper](https://www.sciencedirect.com/science/article/pii/S1077314219300530)
+* Radar and camera early fusion for vehicle detection in advanced driver assistance systems [paper](https://ml4ad.github.io/files/papers/Radar%20and%20Camera%20Early%20Fusion%20for%20Vehicle%20Detection%20in%20Advanced%20Driver%20Assistance%20Systems.pdf)
+* Bridging the view disparity between radar and camera features for multi-modal fusion 3d object detection [paper](https://arxiv.org/pdf/2208.12079.pdf)
