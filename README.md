@@ -329,29 +329,56 @@ raw data-based, projection-based, and voxel-based.
 * 2021 2-S3Net [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_AF2-S3Net_Attentive_Feature_Fusion_With_Adaptive_Feature_Selection_for_Sparse_CVPR_2021_paper.pdf)     
 * 2021 JS3C-Net [paper](https://arxiv.org/pdf/2012.03762.pdf), [code](https://github.com/yanx27/JS3C-Net)    
 
-** 3.RADAR deep-learning-based method ** 
+## 3.RADAR deep-learning-based method 
 Facilitated by the antenna array processing, the mmWave radar can obtain the angular information of vehicle reflecting points, 
 which, combined with the time of flight (ToF), can localize the points in 3D space. Compared with other sensors such as LiDAR and
 cameras, mmWave radar signals are less affected by severe weather conditions (except heavy rain) and are insensitive to lighting.
 Depending on the signal output, mmWave-based vehicle detection methods can be classified into two categories. These are raw-data-level 
 and map-level radar detection.
 
-** 1. Raw data level radar detection **
+**1. Raw data level radar detection**
 MmWave raw data contain the required information to
 locate the detected vehicles. Nowadays, with the development of radar technology, most radars, after receiving
 the reflected signal can directly determine the detected target information such as range, velocity, angle, and
 reflection intensity of detected vehicles.
 
-** 2. Map-level radar target detection **
+**2. Map-level radar target detection**
 
 Compared to raw data target detection radar, the imaging radar not only provides the target’s velocity and
 motion state but also outputs the radar signals into image maps.
 
-** 2D grid maps **
-2D representation can be classified as range doppler azimuth maps and projections map.
 
-** 3D point cloud maps **
-3D points cloud preserves all the information by sacrificing the cost of higher sparsity. 
+**Below are some vehicle detection related works**  
 
-* Point cloud features-based kernel svm for human-vehicle classification in millimeter wave radar, [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8979449)
-* 
+* Point cloud features-based kernel svm for human\-vehicle classification in millimeter wave radar, [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8979449)
+* Radarnet: Exploiting radar for robust perception of dynamic objects, [paper](https://arxiv.org/pdf/2007.14366.pdf?utm_channel=SOCIAL)
+* Through fog high-resolution imaging using millimeter wave radar, [paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Guan_Through_Fog_High-Resolution_Imaging_Using_Millimeter_Wave_Radar_CVPR_2020_paper.pdf)
+* Exploiting temporal relations on radar perception for autonomous driving, [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Exploiting_Temporal_Relations_on_Radar_Perception_for_Autonomous_Driving_CVPR_2022_paper.pdf)
+* 3D point cloud generation with millimeter-wave radar [paper](https://dl.acm.org/doi/pdf/10.1145/3432221)
+* Radar-only ego-motion estimation in difficult settings via graph matching [paper](https://arxiv.org/pdf/1904.11476.pdf)
+* Automotive radar the key technology for autonomous driving: From detection and ranging to environmental understanding [paper](https://www.researchgate.net/profile/Juergen-Dickmann/publication/301960180_Automotive_Radar_the_Key_Technology_For_Autonomous_Driving_From_Detection_and_Ranging_to_Environmental_Understanding/links/5742cff908aea45ee84a6ede/Automotive-Radar-the-Key-Technology-For-Autonomous-Driving-From-Detection-and-Ranging-to-Environmental-Understanding.pdf)
+* Deep instance segmentation with automotive radar detection points [paper](https://arxiv.org/pdf/2110.01775)
+* Iterative adaptive approaches to MIMO radar imaging [paper](http://www.sal.ufl.edu/papers/MIMOIAA.pdf)
+* Mmwave radar point cloud segmentation using gmm in multimodal traffic monitoring [paper](https://arxiv.org/pdf/1911.06364)
+* RSS-Net: weakly-supervised multi-class semantic segmentation with FMCW radar [paper](https://arxiv.org/pdf/2004.03451)
+* Point cloud features-based kernel SVM for humanvehicle classification in millimeter wave radar [pdf](https://ieeexplore.ieee.org/iel7/6287639/6514899/08979449.pdf)
+
+
+## 4. Multi-sensor fusion-based method for vehicle detection  
+
+The information from a single sensor cannot guarantee the safety requirement and the degree of accuracy required for an 
+intelligent vehicle in complex autonomous environment perception.  Every sensor has its pros and cons in terms of 
+environment perception. these three sensors have complementary advantages. Therefore, multi-sensor fusion is an 
+inevitable topic in autonomous driving.
+
+### Stereo vision-based vehicle detection methods
+In the stereo vision system, vehicle detection is performed on information obtained from a combination of two or more 
+cameras capturing different perspectives of the given scene.
+
+**Below are some vehicle detection related works** 
+* Vehicle detection by means of stereo vision-based obstacles features extraction and monocular pattern analysis [paper](https://www.ce.unipr.it/people/broggi/publications/ieee.tip.2006.pdf)
+* Vehicle detection system design based on stereo vision sensors [paper](https://link.springer.com/article/10.1007/s12239-009-0043-z)
+* Vehicle detection and tracking using mean shift segmentation on semi-dense disparity maps [paper](https://ieeexplore.ieee.org/abstract/document/6232280/)
+* Online vehicle detection using Haar-like, LBP and HOG feature based image classifiers with stereo vision preselection [paper](http://bib.drgoehring.de/neumann17iv-vehicledetection/neumann17iv-vehicledetection.pdf)
+* Real-time obstacle detection in complex scenarios using dense stereo vision and optical flow [paper](https://ieeexplore.ieee.org/abstract/document/5625174)
+* 3D pose estimation of vehicles using stereo camera [paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=c5589374a8056b5fef3af8bef7858677fc273ac6)
