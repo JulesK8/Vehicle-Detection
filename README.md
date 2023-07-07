@@ -410,3 +410,21 @@ each other for better environment perception of the ego vehicle.
 * Automotive radar and camera fusion using generative adversarial networks [paper](https://www.sciencedirect.com/science/article/pii/S1077314219300530)
 * Radar and camera early fusion for vehicle detection in advanced driver assistance systems [paper](https://ml4ad.github.io/files/papers/Radar%20and%20Camera%20Early%20Fusion%20for%20Vehicle%20Detection%20in%20Advanced%20Driver%20Assistance%20Systems.pdf)
 * Bridging the view disparity between radar and camera features for multi-modal fusion 3d object detection [paper](https://arxiv.org/pdf/2208.12079.pdf)
+
+## LiDAR and vision fusion-based vehicle detection
+LiDAR vision-based vehicle detection methodologies can be classified into two classes based on different fusion stages.
+These are early fusion and late fusion. Early fusion can be categorized as data-level fusion and feature-level fusion,
+whereas late fusion can be classified as decision-level fusion and multi-level fusion.
+
+**Some of representative works**
+* Real-time vehicle detection framework based on the fusion of LiDAR and camera [paper](https://www.mdpi.com/2079-9292/9/3/451)
+* Dual-view 3D object recognition and detection via Lidar point cloud and camera image [paper](https://www.sciencedirect.com/science/article/pii/S0921889021002542)
+* Deep structural information fusion for 3D object detection on LiDAR–camera system [paper](https://www.sciencedirect.com/science/article/abs/pii/S1077314221001399)
+* Real-time vehicle detection algorithm based on vision and lidar point cloud fusion [paper](https://www.hindawi.com/journals/js/2019/8473980/abs/)
+* Fast and accurate 3D object detection for lidar-camera-based autonomous vehicles using one shared voxel-based backbone [paper](https://ieeexplore.ieee.org/iel7/6287639/6514899/09340187.pdf)
+* Fusion of 3D LIDAR and camera data for object detection in autonomous vehicle applications [pdf](https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1021&context=cs_fac)
+* Target fusion detection of LiDAR and camera based on the improved YOLO algorithm [paper](https://www.mdpi.com/2227-7390/6/10/213/pdf)
+* 3D vehicle detection using multi-level fusion from point clouds and images [paper](https://www.researchgate.net/profile/Lingfei-Ma/publication/357753602_3D_Vehicle_Detection_Using_Multi-Level_Fusion_From_Point_Clouds_and_Images/links/61de11ce323a2268f99ad4f8/3D-Vehicle-Detection-Using-Multi-Level-Fusion-From-Point-Clouds-and-Images.pdf)
+* DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion With Deep Association [paper](https://arxiv.org/pdf/2202.12100)
+* Tightly-coupled LIDAR and computer  vision integration for vehicle detection [paper](https://www.researchgate.net/profile/Matthew-Barth/publication/224562486_Tightly-Coupled_LIDAR_and_Computer_Vision_Integration_for_Vehicle_Detection/links/55bb9ff208aec0e5f4418f47/Tightly-Coupled-LIDAR-and-Computer-Vision-Integration-for-Vehicle-Detection.pdf)
+* Multi-view 3d object detection network for autonomous driving [paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Chen_Multi-View_3D_Object_CVPR_2017_paper.pdf)
