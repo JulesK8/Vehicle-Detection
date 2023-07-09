@@ -1,5 +1,7 @@
+![two-stage object detection network](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/d603159c-be77-465b-af72-65eaf8ecb244)
+![title1](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/6d96c76e-6f42-4eba-9eb3-9fa88e55fbab)
+
 # Vehicle-Detection
-AWESOME VEHICLE DETECTION ALGORTHMS AND DATASETS
 
 
 A curated list of existing methods and datasets for vehicle detection.  
@@ -76,6 +78,7 @@ According to the principles of the existing algorithm, machine vision-based vehi
 machine-learning-based, and deep-learning-based methods.  
 
 **1. Traditional methods**  
+![figure 1](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/1034cb8c-4514-4ab4-bc17-9ca7888d5848)
 
 ***Appearance-based methods***  
 
@@ -147,6 +150,7 @@ machine-learning-based, and deep-learning-based methods.
 
 **_A. Object detection-based methods_**  
 
+
 **1. Anchor-based detectors**  
 **a. Two-stage detection networks**  
 * [RCNN](http://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html)  
@@ -154,11 +158,15 @@ machine-learning-based, and deep-learning-based methods.
 * [Faster RCNN](https://proceedings.neurips.cc/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html)  
 * [SPP-Net](https://ieeexplore.ieee.org/abstract/document/7005506/)  
 
+![two-stage object detection network](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/37720213-5c69-46ea-8109-3b9b010c1991)
+
+
 > Note:  
 > These are some pioneering networks in context of object detection, i.e, these networks are not only used to detect  
 > vehicles but also detect other objects. Consider taking a look into my review paper for a deep understanding.
 
 **b. One-stage detection networks**  
+
 * [YOLO v1](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html)   
 * [SSD](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2) 
 * [YOLO v2](http://openaccess.thecvf.com/content_cvpr_2017/html/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.html)    
@@ -166,6 +174,9 @@ machine-learning-based, and deep-learning-based methods.
 * [M2Det](https://ojs.aaai.org/index.php/AAAI/article/view/4962)  
 * [YOLO v4](https://arxiv.org/abs/2004.10934)    
 * [YOLO v7](http://openaccess.thecvf.com/content/CVPR2023/html/Wang_YOLOv7_Trainable_Bag-of-Freebies_Sets_New_State-of-the-Art_for_Real-Time_Object_Detectors_CVPR_2023_paper.html)  
+
+![Uploading one-stage object detecton network.jpg…]()
+
 
 > Note:  
 > These are some pioneering networks in context of object detection, i.e, these networks are not only used to detect  
