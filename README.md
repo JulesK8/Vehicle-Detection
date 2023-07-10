@@ -1,7 +1,7 @@
 
 ![title1](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/6d96c76e-6f42-4eba-9eb3-9fa88e55fbab)
 
-# Vehicle-Detection
+# Vehicle Detection for autonomous driving
 
 
 A curated list of existing methods and datasets for vehicle detection in an autonomous driving context.  
@@ -11,7 +11,7 @@ Contact: karangwa@mail.ustc.edu.cn
 
 > **Note:**   
 > A review paper related to this list is accepted to be published in IEEE Transactions.  
-The paper is currently under final production stage. I will keep updating this repo for the
+The paper is currently under final production stage. I will keep updating this repo for the  
 latest works in vehicle detection field, and i will provide the link for the paper after publication.   
 If you find that the paper contents are useful, please cite this paper in your work.  
 
@@ -410,7 +410,8 @@ each other for better environment perception of the ego vehicle.
 * Pedestrian detection based on fusion of millimeter wave radar and vision [paper](https://dl.acm.org/doi/abs/10.1145/3268866.3268868)
 * On-road vehicle detection and tracking using MMW radar and monovision fusion [paper](https://ieeexplore.ieee.org/abstract/document/7463071/)
 * CramNet: Camera-Radar Fusion with Ray Constrained Cross-Attention for Robust 3D Object Detection [paper](https://arxiv.org/pdf/2210.09267)
-* 
+
+
 **Decision level fusion**
 * Standard platform for sensor fusion on advanced driver assistance system using bayesian network [paper](https://ieeexplore.ieee.org/abstract/document/1336390/)
 * Camera radar fusion for increased reliability in ADAS applications [paper](https://library.imaging.org/admin/apis/public/api/ist/website/downloadArticle/ei/30/17/art00011)
