@@ -1,4 +1,4 @@
-![two-stage object detection network](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/d603159c-be77-465b-af72-65eaf8ecb244)
+
 ![title1](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/6d96c76e-6f42-4eba-9eb3-9fa88e55fbab)
 
 # Vehicle-Detection
@@ -156,9 +156,8 @@ machine-learning-based, and deep-learning-based methods.
 * [RCNN](http://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html)  
 * [Fast RCNN](http://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html)  
 * [Faster RCNN](https://proceedings.neurips.cc/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html)  
-* [SPP-Net](https://ieeexplore.ieee.org/abstract/document/7005506/)  
-
-![two-stage object detection network](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/37720213-5c69-46ea-8109-3b9b010c1991)
+* [SPP-Net](https://ieeexplore.ieee.org/abstract/document/7005506/)
+![two-stage object detection network](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/d603159c-be77-465b-af72-65eaf8ecb244)
 
 
 > Note:  
