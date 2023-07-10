@@ -259,6 +259,8 @@ Practically, existing LiDAR-based methods can be classified as traditional and d
 Considering the data type where we extract feature maps, LiDAR deep learning methods can be categorized as  
 raw data-based, projection-based, and voxel-based.
 
+![categories of different lidar deep-learning based method](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/9958d247-6233-43eb-af46-062cab8d4923)
+
 **Raw data based**
 * 2017 PointNet [paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf), [code](https://github.com/charlesq34/pointnet)  
 * 2017 PointNet++ [paper](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf), [code](https://github.com/charlesq34/pointnet2)  
