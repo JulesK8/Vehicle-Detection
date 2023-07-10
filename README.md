@@ -174,7 +174,8 @@ machine-learning-based, and deep-learning-based methods.
 * [YOLO v4](https://arxiv.org/abs/2004.10934)    
 * [YOLO v7](http://openaccess.thecvf.com/content/CVPR2023/html/Wang_YOLOv7_Trainable_Bag-of-Freebies_Sets_New_State-of-the-Art_for_Real-Time_Object_Detectors_CVPR_2023_paper.html)  
 
-![Uploading one-stage object detecton network.jpg…]()
+![one-stage object detecton network](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/00f2cdda-992d-49ba-8e72-bb24739fc8bd)
+
 
 
 > Note:  
