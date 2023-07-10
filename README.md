@@ -319,28 +319,28 @@ raw data-based, projection-based, and voxel-based.
 * 2019 F-pointNet: Frustum PointNets for 3D Object Detection from RGB-D Data [paper](https://arxiv.org/pdf/1711.08488.pdf), [code](https://github.com/charlesq34/frustum-pointnets)  
 * 2020 PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection [paper](https://arxiv.org/pdf/1912.13192.pdf), [code](https://github.com/sshaoshuai/PV-RCNN)   
 * 2020 SECOND: Sparsely Embedded Convolutional Detection [paper](https://www.mdpi.com/1424-8220/18/10/3337), [code](https://github.com/open-mmlab/OpenPCDet)  
-* 2020 HVNet [paper](https://arxiv.org/pdf/2003.00186.pdf), [code](https://github.com/AndyYuan96/HVNet)  
+* 2020 HVNet: Hybrid Voxel Network for LiDAR Based 3D Object Detection [paper](https://arxiv.org/pdf/2003.00186.pdf), [code](https://github.com/AndyYuan96/HVNet)  
 * 2020 Associate-3Ddet [paper](https://arxiv.org/pdf/2006.04356.pdf)   
 * 2021 Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection [paper](https://arxiv.org/pdf/2012.15712.pdf), [code](https://github.com/djiajunustc/Voxel-R-CNN)   
-* 2021 TANet [paper](https://arxiv.org/pdf/1912.05163.pdf), [code](https://github.com/happinesslz/TANet)   
+* 2021 TANet: Robust 3D Object Detection from Point Clouds with Triple Attention [paper](https://arxiv.org/pdf/1912.05163.pdf), [code](https://github.com/happinesslz/TANet)   
 * 2021 VIN: Voxel-based Implicit Network for Joint3D Object Detection and Segmentation for Lidars [paper](https://arxiv.org/pdf/2107.02980.pdf)  
-* 2022 SIENet [paper](https://arxiv.org/pdf/2103.15396.pdf), [code](https://github.com/Liz66666/SIENet)   
-* 2022 SMSNet [paper](https://www.sciencedirect.com/science/article/abs/pii/S092523122200786X)   
+* 2022 SIENet: Spatial Information Enhancement Network for 3D Object Detection from Point Cloud [paper](https://arxiv.org/pdf/2103.15396.pdf), [code](https://github.com/Liz66666/SIENet)   
+* 2022 SMS-Net: Sparse multi-scale voxel feature aggregation network for LiDAR-based 3D object detection [paper](https://www.sciencedirect.com/science/article/abs/pii/S092523122200786X)   
 * 2022 MA-MFFC:3D Object Detection Based on Attention and Multi-Scale Feature Fusion [paper](https://pubmed.ncbi.nlm.nih.gov/35632344/)   
-* 2022 PDV [paper](https://arxiv.org/pdf/2203.05662.pdf), [code](https://github.com/TRAILab/PDV)   
-* 2023 SAT-GCN [paper](https://www.sciencedirect.com/science/article/pii/S0950705122011765)    
+* 2022 PDV: Point Density-Aware Voxels for LiDAR 3D Object Detection [paper](https://arxiv.org/pdf/2203.05662.pdf), [code](https://github.com/TRAILab/PDV)   
+* 2023 SAT-GCN: Self-attention graph convolutional network-based 3D object detection for autonomous driving [paper](https://www.sciencedirect.com/science/article/pii/S0950705122011765)    
 
 **Pillar-based**  
-* 2019 PointPillars [paper](https://arxiv.org/pdf/1812.05784.pdf), [code](https://github.com/zhulf0804/PointPillars)   
-* 2022 ASCNet [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231221019184)    
-* 2022 WCNN3D [paper](https://www.mdpi.com/1424-8220/22/18/7010)   
+* 2019 PointPillars: Fast Encoders for Object Detection from Point Clouds [paper](https://arxiv.org/pdf/1812.05784.pdf), [code](https://github.com/zhulf0804/PointPillars)   
+* 2022 Associate-3Ddet: Perceptual-to-Conceptual Association for 3D Point Cloud Object Detection [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231221019184)    
+* 2022 WCNN3D: Wavelet Convolutional Neural Network-Based 3D Object Detection for Autonomous Driving [paper](https://www.mdpi.com/1424-8220/22/18/7010)   
 
 **Hybrid-based**  
-* 2020 SegVoxelNet [paper](https://arxiv.org/pdf/2002.05316.pdf)     
-* 2020 AMVnet [paper](https://arxiv.org/pdf/2012.04934.pdf)     
-* 2020 FusionNet [paper](https://arxiv.org/ftp/arxiv/papers/1612/1612.05360.pdf)     
-* 2021 2-S3Net [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_AF2-S3Net_Attentive_Feature_Fusion_With_Adaptive_Feature_Selection_for_Sparse_CVPR_2021_paper.pdf)     
-* 2021 JS3C-Net [paper](https://arxiv.org/pdf/2012.03762.pdf), [code](https://github.com/yanx27/JS3C-Net)    
+* 2020 SegVoxelNet: Exploring Semantic Context and Depth-aware Features for 3D Vehicle Detection from Point Cloud [paper](https://arxiv.org/pdf/2002.05316.pdf)     
+* 2020 AMVNet: Assertion-based Multi-View Fusion Network for LiDAR Semantic Segmentation [paper](https://arxiv.org/pdf/2012.04934.pdf)     
+* 2020 FusionNet: A deep fully residual convolutional neural network for image segmentation in connectomics [paper](https://arxiv.org/ftp/arxiv/papers/1612/1612.05360.pdf)     
+* 2021 AF2-S3Net: Attentive Feature Fusion with Adaptive Feature Selection for Sparse Semantic Segmentation Network [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cheng_AF2-S3Net_Attentive_Feature_Fusion_With_Adaptive_Feature_Selection_for_Sparse_CVPR_2021_paper.pdf)     
+* 2021 Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion [paper](https://arxiv.org/pdf/2012.03762.pdf), [code](https://github.com/yanx27/JS3C-Net)    
 
 ## 3. RADAR deep-learning-based method 
 Facilitated by the antenna array processing, the mmWave radar can obtain the angular information of vehicle reflecting points, 
