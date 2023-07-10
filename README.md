@@ -287,44 +287,43 @@ raw data-based, projection-based, and voxel-based.
 * 2022 PointDistiller: Structured Knowledge Distillation Towards Efficient and Compact 3D Detection [paper](https://arxiv.org/pdf/2205.11098.pdf), [code](https://github.com/RunpeiDong/PointDistiller)  
 
 **Projection-based**  
-* 2015 MVCNN [paper](https://arxiv.org/pdf/1505.00880.pdf), [code](https://github.com/suhangpro/mvcnn).    
-* 2017 DepthCN [paper](https://ieeexplore.ieee.org/document/8317880/).     
-* 2017 MV3D [paper](https://arxiv.org/pdf/1611.07759.pdf), [code](https://github.com/bostondiditeam/MV3D).     
-* 2018 GVCNN [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Feng_GVCNN_Group-View_Convolutional_CVPR_2018_paper.pdf), [code](https://github.com/waxnkw/gvcnn-pytorch).    
-* 2018 PointSeg [paper](https://arxiv.org/pdf/1807.06288.pdf), [code](https://github.com/ArashJavan/PointSeg)  
-* 2018 SnapNet [paper](https://boulch.eu/files/2017_cag_snapNet.pdf), [code](https://github.com/aboulch/snapnet)  
-* 2018 SqueezeSeg [paper](https://arxiv.org/pdf/1710.07368.pdf), [code](https://github.com/BichenWuUCB/SqueezeSeg)  
-* 2018 RT3D [paper](https://ieeexplore.ieee.org/iel7/7083369/7339444/08403277.pdf), [code](https://github.com/zyms5244/RT3D)   
-* 2018 BirdNet [paper](https://arxiv.org/pdf/1805.01195.pdf)   
-* 2018 PIXOR [paper](https://arxiv.org/pdf/1902.06326.pdf), [code](https://github.com/matssteinweg/PIXOR)   
-* 2018 Complex-YOLO [paper](https://arxiv.org/pdf/1803.06199.pdf), [code](https://github.com/AI-liu/Complex-YOLO)   
-* 2019 SqueezeSeg v2 [paper](https://arxiv.org/pdf/1809.08495.pdf), [code](https://github.com/xuanyuzhou98/SqueezeSegV2)  
-* 2020 BirdNet+ [paper](https://arxiv.org/pdf/2003.04188.pdf), [code](https://github.com/AlejandroBarrera/birdnet2)    
-* 2020 MVL Net [paper](https://arxiv.org/pdf/2006.05518.pdf).     
-* 2020 RAANet [paper](https://arxiv.org/pdf/2111.09515.pdf), [code](https://github.com/anonymous0522/raan)   
-* 2022 Pseudo-L [paper](https://arxiv.org/pdf/2203.02112.pdf), [code](https://github.com/revisitq/Pseudo-Stereo-3D)   
-* 2020 SRDL [paper](https://arxiv.org/pdf/2006.05187.pdf).   
-* 2023 Ri-fusion [paper](https://ieeexplore.ieee.org/document/9963928).  
+* 2015 Multi-view Convolutional Neural Networks for 3D Shape Recognition [paper](https://arxiv.org/pdf/1505.00880.pdf), [code](https://github.com/suhangpro/mvcnn).    
+* 2017 DepthCN: Vehicle detection using 3D-LIDAR and ConvNet [paper](https://ieeexplore.ieee.org/document/8317880/).     
+* 2017 MV3D: Multi-View 3D Object Detection Network for Autonomous Driving[paper](https://arxiv.org/pdf/1611.07759.pdf), [code](https://github.com/bostondiditeam/MV3D).     
+* 2018 GVCNN: Group-View Convolutional Neural Networks for 3D Shape Recognition [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Feng_GVCNN_Group-View_Convolutional_CVPR_2018_paper.pdf), [code](https://github.com/waxnkw/gvcnn-pytorch).    
+* 2018 PointSeg: Real-Time Semantic Segmentation Based on 3D LiDAR Point Cloud [paper](https://arxiv.org/pdf/1807.06288.pdf), [code](https://github.com/ArashJavan/PointSeg)  
+* 2018 SnapNet: 3D point cloud semantic labeling with 2D deep segmentation networks [paper](https://boulch.eu/files/2017_cag_snapNet.pdf), [code](https://github.com/aboulch/snapnet)  
+* 2018 SqueezeSeg:  Convolutional Neural Nets with Recurrent CRF for Real-Time Road-Object Segmentation from 3D LiDAR Point Cloud [paper](https://arxiv.org/pdf/1710.07368.pdf), [code](https://github.com/BichenWuUCB/SqueezeSeg)  
+* 2018 RT3D: Real-Time 3-D Vehicle Detection in LiDAR Point Cloud for Autonomous Driving [paper](https://ieeexplore.ieee.org/iel7/7083369/7339444/08403277.pdf), [code](https://github.com/zyms5244/RT3D)   
+* 2018 BirdNet: a 3D Object Detection Framework from LiDAR information [paper](https://arxiv.org/pdf/1805.01195.pdf)   
+* 2018 PIXOR: Real-time 3D Object Detection from Point Clouds [paper](https://arxiv.org/pdf/1902.06326.pdf), [code](https://github.com/matssteinweg/PIXOR)   
+* 2018 Complex-YOLO: An Euler-Region-Proposal for Real-time 3D Object Detection on Point Clouds [paper](https://arxiv.org/pdf/1803.06199.pdf), [code](https://github.com/AI-liu/Complex-YOLO)   
+* 2019 SqueezeSeg v2: Improved Model Structure and Unsupervised Domain Adaptation for Road-Object Segmentation from a LiDAR Point Cloud [paper](https://arxiv.org/pdf/1809.08495.pdf), [code](https://github.com/xuanyuzhou98/SqueezeSegV2)  
+* 2020 BirdNet+: End-to-End 3D Object Detection in LiDAR Bird’s Eye View [paper](https://arxiv.org/pdf/2003.04188.pdf), [code](https://github.com/AlejandroBarrera/birdnet2)    
+* 2020 MVLidarNet: Real-Time Multi-Class Scene Understanding for Autonomous Driving Using Multiple Views [paper](https://arxiv.org/pdf/2006.05518.pdf).     
+* 2020 RAANet: Range-Aware Attention Network for LiDAR-based 3D Object Detection with Auxiliary Point Density Level Estimation [paper](https://arxiv.org/pdf/2111.09515.pdf), [code](https://github.com/anonymous0522/raan)  
+* 2022 Pseudo-L: Pseudo-Stereo for Monocular 3D Object Detection in Autonomous Driving [paper](https://arxiv.org/pdf/2203.02112.pdf), [code](https://github.com/revisitq/Pseudo-Stereo-3D)   
+* 2020 SRDL: Stereo RGB and Deeper LIDAR Based Network for 3D Object Detection [paper](https://arxiv.org/pdf/2006.05187.pdf).   
+* 2023 RI-Fusion: 3D Object Detection Using Enhanced Point Features With Range-Image Fusion for Autonomous Driving [paper](https://ieeexplore.ieee.org/document/9963928).  
 
 **Voxel-based**  
-* 2015 VoxNet [paper](https://ieeexplore.ieee.org/document/7353481), [code](https://github.com/AutoDeep/VoxNet)  
-* 2017 3DFCN [paper](https://arxiv.org/pdf/1709.07599.pdf)  
-* 2017 SegCloud [paper](https://arxiv.org/pdf/1710.07563.pdf)   
-* 2017 octNet [paper](https://arxiv.org/pdf/1611.05009.pdf), [code](https://github.com/griegler/octnet)  
-* 2017 Kd-Net [paper](https://arxiv.org/pdf/1704.01222.pdf), [code](https://github.com/fxia22/kdnet.pytorch)  
-* 2018 VoxelNet [paper](https://arxiv.org/pdf/1711.06396.pdf), [code](https://github.com/steph1793/Voxelnet)  
-* 2018 3DmFV [paper](https://arxiv.org/pdf/1711.08241.pdf), [code](https://github.com/sitzikbs/3DmFV-Net)  
-* 2018 PointGrid [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf), [code](https://github.com/trucleduc/PointGrid)  
-* 2018 O-CNN [paper](https://arxiv.org/pdf/1712.01537.pdf), [code](https://github.com/microsoft/O-CNN)  
-* 2019 MVX-Net [paper](https://arxiv.org/pdf/1904.01649.pdf), [code](https://github.com/AIR-THU/DAIR-V2X/blob/main/configs/sv3d-veh/mvxnet/README.md)   
-* 2019 F-pointNet [paper](https://arxiv.org/pdf/1711.08488.pdf), [code](https://github.com/charlesq34/frustum-pointnets)  
-* 2020 PVRCNN [paper](https://arxiv.org/pdf/1912.13192.pdf), [code](https://github.com/sshaoshuai/PV-RCNN)   
-* 2020 SECOND [paper](https://www.mdpi.com/1424-8220/18/10/3337), [code](https://github.com/open-mmlab/OpenPCDet)  
+* 2015 VoxNet: A 3D Convolutional Neural Network for real-time object recognition [paper](https://ieeexplore.ieee.org/document/7353481), [code](https://github.com/AutoDeep/VoxNet)  
+* 2017 3DFCN: High-Resolution Shape Completion Using Deep Neural Networks for Global Structure and Local Geometry Inference [paper](https://arxiv.org/pdf/1709.07599.pdf)  
+* 2017 SEGCloud: Semantic Segmentation of 3D Point Clouds [paper](https://arxiv.org/pdf/1710.07563.pdf)   
+* 2017 OctNet: Learning Deep 3D Representations at High Resolutions [paper](https://arxiv.org/pdf/1611.05009.pdf), [code](https://github.com/griegler/octnet)  
+* 2017 Kd-Net: Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models [paper](https://arxiv.org/pdf/1704.01222.pdf), [code](https://github.com/fxia22/kdnet.pytorch)  
+* 2018 VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection [paper](https://arxiv.org/pdf/1711.06396.pdf), [code](https://github.com/steph1793/Voxelnet)  
+* 2018 3DmFV: 3D Point Cloud Classification and Segmentation using 3D Modified Fisher Vector Representation for Convolutional Neural Networks [paper](https://arxiv.org/pdf/1711.08241.pdf), [code](https://github.com/sitzikbs/3DmFV-Net)  
+* 2018 PointGrid: A Deep Network for 3D Shape Understanding [paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf), [code](https://github.com/trucleduc/PointGrid)  
+* 201MVX-Net: Multimodal VoxelNet for 3D Object Detection [paper](https://arxiv.org/pdf/1904.01649.pdf), [code](https://github.com/AIR-THU/DAIR-V2X/blob/main/configs/sv3d-veh/mvxnet/README.md)   
+* 2019 F-pointNet: Frustum PointNets for 3D Object Detection from RGB-D Data [paper](https://arxiv.org/pdf/1711.08488.pdf), [code](https://github.com/charlesq34/frustum-pointnets)  
+* 2020 PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection [paper](https://arxiv.org/pdf/1912.13192.pdf), [code](https://github.com/sshaoshuai/PV-RCNN)   
+* 2020 SECOND: Sparsely Embedded Convolutional Detection [paper](https://www.mdpi.com/1424-8220/18/10/3337), [code](https://github.com/open-mmlab/OpenPCDet)  
 * 2020 HVNet [paper](https://arxiv.org/pdf/2003.00186.pdf), [code](https://github.com/AndyYuan96/HVNet)  
 * 2020 Associate-3Ddet [paper](https://arxiv.org/pdf/2006.04356.pdf)   
-* 2021 VoxelRCNN [paper](https://arxiv.org/pdf/2012.15712.pdf), [code](https://github.com/djiajunustc/Voxel-R-CNN)   
+* 2021 Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection [paper](https://arxiv.org/pdf/2012.15712.pdf), [code](https://github.com/djiajunustc/Voxel-R-CNN)   
 * 2021 TANet [paper](https://arxiv.org/pdf/1912.05163.pdf), [code](https://github.com/happinesslz/TANet)   
-* 2021 VIN [paper](https://arxiv.org/pdf/2107.02980.pdf)  
+* 2021 VIN: Voxel-based Implicit Network for Joint3D Object Detection and Segmentation for Lidars [paper](https://arxiv.org/pdf/2107.02980.pdf)  
 * 2022 SIENet [paper](https://arxiv.org/pdf/2103.15396.pdf), [code](https://github.com/Liz66666/SIENet)   
 * 2022 SMSNet [paper](https://www.sciencedirect.com/science/article/abs/pii/S092523122200786X)   
 * 2022 MA-MFFC:3D Object Detection Based on Attention and Multi-Scale Feature Fusion [paper](https://pubmed.ncbi.nlm.nih.gov/35632344/)   
