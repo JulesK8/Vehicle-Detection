@@ -157,6 +157,7 @@ machine-learning-based, and deep-learning-based methods.
 * [Fast RCNN](http://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html)  
 * [Faster RCNN](https://proceedings.neurips.cc/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html)  
 * [SPP-Net](https://ieeexplore.ieee.org/abstract/document/7005506/)
+
 ![two-stage object detection network](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/d603159c-be77-465b-af72-65eaf8ecb244)
 
 
@@ -403,6 +404,9 @@ is known to have a high resolution containing rich semantic information. Despite
 are insufficient for environmental perception when used separately. Therefore, fusing mmWave radar and the camera compliments 
 each other for better environment perception of the ego vehicle.
 
+![Fig 8](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/6b7a2259-de63-4038-b914-749911567405)
+
+
 **Data level fusion**
 * Pedestrian detection based on fusion of millimeter wave radar and vision [paper](https://dl.acm.org/doi/abs/10.1145/3268866.3268868)
 * On-road vehicle detection and tracking using MMW radar and monovision fusion [paper](https://ieeexplore.ieee.org/abstract/document/7463071/)
@@ -428,6 +432,10 @@ each other for better environment perception of the ego vehicle.
 LiDAR vision-based vehicle detection methodologies can be classified into two classes based on different fusion stages.
 These are early fusion and late fusion. Early fusion can be categorized as data-level fusion and feature-level fusion,
 whereas late fusion can be classified as decision-level fusion and multi-level fusion.
+
+![Fig 9](https://github.com/JulesK8/Vehicle-Detection/assets/134627326/4b4cabfe-bffa-4cd5-b4dc-a017ce5c0458)
+
+
 
 **Some of representative works**
 * Real-time vehicle detection framework based on the fusion of LiDAR and camera [paper](https://www.mdpi.com/2079-9292/9/3/451)
