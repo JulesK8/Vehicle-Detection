@@ -11,7 +11,7 @@ Contact: karangwa@mail.ustc.edu.cn
 
 > **Note:**   
 > A review paper related to this list is published in IEEE Transactions.  
-The link for the paper is here [Vehicle Detection for Autonomous Driving: A Review of Algorithms and Datasets].
+The link for the paper is here [Vehicle Detection for Autonomous Driving: A Review of Algorithms and Datasets](https://ieeexplore.ieee.org/document/10196355).
 > I will keep updating this repo for the  latest works in vehicle detection field, If you find that the paper
 contents are useful, please cite this paper in your work.  
 
